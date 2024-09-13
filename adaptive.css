@@ -1,0 +1,130 @@
+@media screen and (max-width: 1290px) {
+
+    .navigation {
+        margin-left: 250px;
+    }
+
+    .about .container {
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (max-width: 1204px) {
+    .header {
+        padding: 0 10px;
+    }
+
+    .navigation {
+        margin-left: 150px;
+    }
+
+    .navigation ul {
+        align-items: center;
+    }
+
+    .footer-top .logo {
+        margin-right: 200px;
+    }
+
+    .footer-bottom {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    .header .container {
+        justify-content: space-between;
+    }
+
+    .navigation {
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.79);
+        z-index: 1000;
+    }
+
+    .burger {
+        display: flex;
+        z-index: 100;
+    }
+
+    .navigation ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        height: 100%;
+    }
+
+    .navigation ul li {
+        margin: 0;
+    }
+
+    .header-navigation_close {
+        display: block;
+        height: 30px;
+        width: 30px;
+        position: absolute;
+    }
+
+    .footer-top .logo {
+        margin-right: 40px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .about {
+        margin-bottom: 180px;
+        margin-top: 180px;
+    }
+
+    .about-info {
+        font-size: 32px;
+        line-height: unset;
+        margin-top: 0;
+    }
+
+    .about-image img {
+        width: 200px;
+    }
+
+    .footer {
+        margin-bottom: 0;
+    }
+
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .footer-top div {
+        margin: 0;
+    }
+    
+    .footer-top .social {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 424px) {
+    body {
+    }
+
+    .about .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-info {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

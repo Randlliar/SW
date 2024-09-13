@@ -1,0 +1,294 @@
+@font-face {
+    src: url("assets/fonts/DMSans-Regular.ttf");
+    font-family: DMSans;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url("assets/fonts/Poppins-Bold.ttf");
+    font-family: Poppins-Bold;
+    font-weight: 700;
+}
+
+@font-face {
+    src: url("assets/fonts/Poppins-Regular.ttf");
+    font-family: Poppins;
+    font-weight: 400;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.header {
+    font-family: DMSans, sans-serif;
+    margin-top: 41px;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+}
+
+.header .container {
+    max-width: 1193px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    margin-left: 306px;
+    margin-right: 31px;
+}
+
+.header-navigation_close {
+    display: none;
+}
+
+.navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.navigation ul li {
+    cursor: pointer;
+}
+
+.nav-1 {
+    margin-right: 67px;
+}
+
+.nav-2 {
+    margin-right: 63px;
+}
+
+.nav-3 {
+    margin-right: 54px;
+}
+
+.nav-4 {
+    margin-right: 50px;
+}
+
+.social {
+    display: flex;
+}
+
+.social div {
+    margin-left: 20px;
+}
+
+.burger {
+    display: none;
+}
+
+.about {
+    margin-top: 239px;
+    margin-bottom: 330px;
+}
+
+.about .container {
+    max-width: 1204px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info {
+    font-family: Poppins-Bold, sans-serif;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+    width: 636px;
+    color: rgb(66, 68, 110);
+    margin-top: 45px;
+}
+
+.about-info span {
+    background: linear-gradient(45deg, rgb(19, 176, 245), rgb(231, 15, 170));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tech-stack .container {
+    max-width: 1218px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(66, 68, 110);
+    font-family: Poppins-Bold, sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 49px;
+}
+
+.category-description {
+    color: rgb(102, 102, 102);
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 148px;
+}
+
+.tech-stack-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 87px;
+    justify-content: center;
+}
+
+.tech-stack-info div {
+    width: 130px;
+    height: 130px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    margin-top: 206px;
+    margin-bottom: 203px;
+}
+
+.projects .container {
+    max-width: 1218px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 62px 39px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.card {
+    width: 373px;
+    height: 567px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card-info {
+    padding: 26px 29px;
+    text-align: left;
+}
+
+.card-image {
+    height: 260px;
+}
+
+.card-info-title {
+    color: rgb(0, 0, 0);
+    font-family: Poppins-Bold, sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 17px;
+}
+
+.card-info-text {
+    color: rgb(102, 102, 102);
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 12px;
+    height: 130px;
+}
+
+.card-info-stack {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    color: rgb(66, 68, 110);
+    margin-bottom: 21px;
+}
+
+.card-info-stack span {
+    font-weight: bold;
+}
+
+.card-info-links {
+    display: flex;
+}
+
+.card-info-links a{
+    color: rgb(0, 0, 0);
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration:  none;
+    align-items: center;
+    display: flex;
+}
+
+.card-info-links a span {
+    margin-left: 12px;
+    text-decoration: underline;
+
+}
+
+.card-info-links a:first-child {
+    margin-right: 48px;
+}
+
+.footer {
+    color: rgb(66, 68, 110);
+    font-family: DMSans, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.footer .container {
+    max-width: 1209px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 43px;
+}
+
+.footer-top .logo {
+    margin-right: 517px;
+}
+
+.phone {
+    margin-right: 63px;
+}
+
+.phone a {
+    color: rgb(66, 68, 110);
+}
+
+.mail {
+    margin-right: 42px;
+}
+
+.footer-bottom {
+    display: flex;
+    margin-top: 54px;
+}
+
+.footer-bottom .navigation {
+    margin-left: 0;
+    margin-right: 176px;
+}
+
+.footer-about span {
+    background: linear-gradient(45deg, rgb(19, 176, 245), rgb(231, 15, 170));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
